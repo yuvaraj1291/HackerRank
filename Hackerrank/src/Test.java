@@ -14,16 +14,10 @@ public class Test {
 		sb.delete(0, 2);
 		System.out.println(sb.toString());*/
 		
-		String a="aaabbcc  ddd ee f";
-		String ch11="abaccf";
-		char[] ch=ch11.toCharArray();
-		for(char c:ch){
-			System.out.println(a.contains(String.valueOf(c)));
-		}
-		char aa='a';
-		char b='d';
-		int c=b-aa;
-		System.out.println(c);
-	}
+			   String s="Sachin Tendulkar";  
+			   System.out.println(s.substring(6));//Tendulkar  
+			   System.out.println(s.substring(0,6));//Sachin  
+			   System.out.println(s);
+			} 
 	
 }
